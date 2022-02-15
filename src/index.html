@@ -40,7 +40,7 @@
         </div>
 
         <div class="form-field">
-          How old are You?:
+          How old are You?
           <input
             type="number"
             name="Years"
@@ -66,7 +66,7 @@
         </div>
 
         <div class="form_field">
-          I accept the term of the agreement:
+          I accept the term of the agreement
           <input
             type="checkbox"
             name="Agreement"
@@ -107,10 +107,10 @@
       </fieldset>
 
       <fieldset class="group">
-        <legend>An interesting fact about You!</legend>
+        <legend>An interesting fact about you!</legend>
 
         <div class="form-field">
-          Do You love cats?:
+          Do you love cats?
           <label>
             <input
               type="radio"
@@ -131,7 +131,7 @@
         </div>
 
         <div class="form-field">
-          What is Your favorite color?:
+          What is your favorite color?
           <label>
             <input
               type="color"
@@ -142,31 +142,34 @@
         </div>
 
         <div class="form-field">
-          What time do You go to bed?:
+          What time do you go to bed?
           <input
             type="time"
             name="Time"
             id="Time"
+            step="1"
             required
           >
           <label for="Time"></label>
         </div>
 
-        <label class="form-field">
-          What are Your favorite brand of cars?:
+        <div class="form-field">
+          What are your favorite brand of cars?
           <select
             name="Cars"
+            id="Cars"
             required
             multiple
           >
-            <option value="Aston Martin">Aston Martin</option>
-            <option value="Bentley">Bentley</option>
-            <option value="Jaguar">Jaguar</option>
+            <option value="BMW">BMW</option>
+            <option value="Audi">Audi</option>
+            <option value="Lada">Lada</option>
+            <label for="Cars"></label>
           </select>
-        </label>
+        </div>
 
         <div class="form_field">
-          How do You rate our work?:
+          How do you rate our work?
           <input
             type="range"
             name="Rate"
@@ -184,22 +187,24 @@
       <fieldset class="group">
         <legend>Additional info:</legend>
 
-        <label class="form-field">
+        <div class="form-field">
           Comments:
-          <textarea name="Comments"></textarea>
-        </label>
+          <textarea name="Comments" id="Comments"></textarea>
+          <label for="Comments"></label>
+        </div>
 
-        <label class="form_field">
-          Would You recommend us?:
+        <div class="form_field">
+          Would you recommend us?
           <select
             name="Recommend"
+            id="Recommend"
             required
           >
             <option value="yes">yes</option>
-            <option value="maybe">maybe</option>
             <option value="no">no</option>
+            <label for="Recommend"></label>
           </select>
-        </label>
+        </div>
       </fieldset>
 
       <button type="submit">Submit</button>
