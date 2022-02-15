@@ -1,11 +1,11 @@
+.group {
+  margin-bottom: 20px;
+}
+
 .form-field {
   margin-bottom: 10px;
 }
 
-.form_field {
+.group :last-child {
   margin: 0;
-}
-
-.group {
-  margin-bottom: 20px;
 }
